@@ -1,0 +1,26 @@
+# /etc/conf.d/netchaind: config file for /etc/init.d/netchaind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/netchain/netchain.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/netchaind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/netchaind.pid"
+
+# Where to write netchaind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/netchaind"
+
+# User and group to own netchaind process
+#BITCOIND_USER="netchain"
+#BITCOIND_GROUP="netchain"
+
+# Path to netchaind executable
+#BITCOIND_BIN="/usr/bin/netchaind"
+
+# Nice value to run netchaind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

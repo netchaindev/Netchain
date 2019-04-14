@@ -1,0 +1,26 @@
+[Unit]
+Description=Netchain's distributed currency daemon
+After=network.target
+
+[Service]
+User=netchain
+Group=netchain
+
+Type=forking
+PIDFile=/var/lib/netchaind/netchaind.pid
+
+ExecStart=/usr/bin/netchaind -daemon -pid=/var/lib/netchaind/netchaind.pid \
+          -conf=/etc/netchain/netchain.conf -datadir=/var/lib/netchaind
+
+ExecStop=-/usr/bin/netchain-cli -conf=/etc/netchain/netchain.conf \
+         -datadir=/var/lib/netchaind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

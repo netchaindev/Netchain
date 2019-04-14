@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Netchain
+Comment=Netchain P2P Cryptocurrency
+Comment[fr]=Netchain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Netchain, eşten eşe kriptografik sanal para birimi
+Exec=netchain-qt %u
+Terminal=false
+Type=Application
+Icon=netchain128
+MimeType=x-scheme-handler/netchain;
+Categories=Office;Finance;

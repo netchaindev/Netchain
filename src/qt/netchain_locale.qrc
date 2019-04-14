@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/netchain_bg.qm</file>
+        <file alias="ca">locale/netchain_ca.qm</file>
+        <file alias="cs">locale/netchain_cs.qm</file>
+        <file alias="da">locale/netchain_da.qm</file>
+        <file alias="de">locale/netchain_de.qm</file>
+        <file alias="en">locale/netchain_en.qm</file>
+        <file alias="en_US">locale/netchain_en_US.qm</file>
+        <file alias="eo">locale/netchain_eo.qm</file>
+        <file alias="es">locale/netchain_es.qm</file>
+        <file alias="es_ES">locale/netchain_es_ES.qm</file>
+        <file alias="fi">locale/netchain_fi.qm</file>
+        <file alias="fr_FR">locale/netchain_fr_FR.qm</file>
+        <file alias="hi_IN">locale/netchain_hi_IN.qm</file>
+        <file alias="hr">locale/netchain_hr.qm</file>
+        <file alias="hr_HR">locale/netchain_hr_HR.qm</file>
+        <file alias="it">locale/netchain_it.qm</file>
+        <file alias="ja">locale/netchain_ja.qm</file>
+        <file alias="ko_KR">locale/netchain_ko_KR.qm</file>
+        <file alias="lt_LT">locale/netchain_lt_LT.qm</file>
+        <file alias="nl">locale/netchain_nl.qm</file>
+        <file alias="pl">locale/netchain_pl.qm</file>
+        <file alias="pt">locale/netchain_pt.qm</file>
+        <file alias="pt_BR">locale/netchain_pt_BR.qm</file>
+        <file alias="ro_RO">locale/netchain_ro_RO.qm</file>
+        <file alias="ru">locale/netchain_ru.qm</file>
+        <file alias="sk">locale/netchain_sk.qm</file>
+        <file alias="sv">locale/netchain_sv.qm</file>
+        <file alias="tr">locale/netchain_tr.qm</file>
+        <file alias="uk">locale/netchain_uk.qm</file>
+        <file alias="vi">locale/netchain_vi.qm</file>
+        <file alias="zh_CN">locale/netchain_zh_CN.qm</file>
+        <file alias="zh_TW">locale/netchain_zh_TW.qm</file>
+    </qresource>
+</RCC>
