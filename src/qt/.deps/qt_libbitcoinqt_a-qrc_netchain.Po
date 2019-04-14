@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_netchain.o: qt/qrc_netchain.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
